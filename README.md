@@ -2,7 +2,7 @@
 
 Practical implementation of the standard using an Escrow example.
 
-Standard spec: https://eips.ethereum.org/EIPS/eip-1155
+Standard: https://eips.ethereum.org/EIPS/eip-1155
 
 The solution is comprised of two Solidity Smart Contracts:
  - contracts/Escrow.sol
