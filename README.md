@@ -1,4 +1,4 @@
-## Example ERC-1155 token standard implementation 
+## ERC-1155 token standard implementation 
 
 Practical implementation of the standard using an Escrow example.
 Spec: https://eips.ethereum.org/EIPS/eip-1155
