@@ -1,4 +1,7 @@
-Example ERC-1155 token standard implementation - https://eips.ethereum.org/EIPS/eip-1155
+## Example ERC-1155 token standard implementation 
+
+Practical implementation of the standard using an Escrow example.
+Spec: https://eips.ethereum.org/EIPS/eip-1155
 
 The solution is comprised of two Solidity Smart Contracts:
  - contracts/Escrow.sol
@@ -8,7 +11,7 @@ Main tool that is needed for testing and migrating is truffle:
 https://github.com/trufflesuite/truffle/
 
 ### Tokens.sol
-Based on the ERC1155 standard it handles the minting, transfering of Fungible and NonFungible tokens in a single contract.
+Handles the minting, transfering of Fungible and NonFungible tokens in a single contract.
 
 ### Escrow.sol
 Holds all the escrow logic, like crediting, creating offers, handling orders..
